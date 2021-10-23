@@ -3817,7 +3817,7 @@ NameUser = Hyper_Link_Name(data)
 msg = arg.msg
 UserID = msg.UserID
 if UserID == our_id then return sendMsg(msg.chat_id_,msg.id_,"❍ مايمديك تنفيذ الامر مع البوت\n") end
-if UserID == 811166089 or UserID ==1768345179 then return sendMsg(msg.chat_id_,msg.id_,"❍ مايمديك تنزل Dev🎖! \n") end
+if UserID == 811166089or UserID ==1768345179then return sendMsg(msg.chat_id_,msg.id_,"❍ مايمديك تنزل Dev🎖! \n") end
 
 if UserID == SUDO_ID then 
 rinkuser = 1
